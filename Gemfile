@@ -29,6 +29,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Unicorn as the app server
 gem 'unicorn'
 gem 'mysql2', '~> 0.3.16'
+gem 'therubyracer',  platforms: :ruby
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
