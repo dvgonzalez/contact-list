@@ -25,8 +25,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+# Stuff for server on AWS to work
 # Use Unicorn as the app server
-# gem 'unicorn'
+gem 'unicorn'
+gem 'mysql2', '~> 0.3.16'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
